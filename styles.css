@@ -1,0 +1,153 @@
+
+:root {
+    --mirecourt-dark-green: #083700;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: none;
+    cursor: url("/cursor.svg"), auto;
+}
+
+p {
+    color: white;
+    font-family: "garamond-premier-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.landing-page {
+    background: var(--mirecourt-dark-green);
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav-bar {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "league-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.nav-bar-box {
+    text-align: left;
+    border-top: 2px solid white;
+    width: 30%;
+}
+
+.hero-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.hero-page h1 {
+    font-family: "carol-gothic", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+}
+
+.hero-page-title {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.hero-page p {
+    text-align: center;
+    align-items: center;
+    font-family: "league-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.callout {
+    padding: 30px;
+    font-family: "league-gothic", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: white;
+    max-width: 600px;
+}
+
+.body {
+    padding: 30px;
+}
+
+.body h2 {
+    font-family: "league-gothic", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: white;
+}
+
+.body p {
+    color: white;
+    font-family: "garamond-premier-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #031200;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.footer h2 {
+    font-family: "carol-gothic", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.footer-socials {
+    padding-top: 30px;
+}
+
+.footer-right {
+    margin-top: 14px;
+    font-family: "garamond-premier-pro-caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
