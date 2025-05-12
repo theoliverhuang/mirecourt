@@ -1,0 +1,50 @@
+
+:root {
+    --mirecourt-dark-green: #083700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.rush-landing {
+    background-color: var(--mirecourt-dark-green);
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.rush-landing-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "league-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: "garamond-premier-pro-caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
